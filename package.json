@@ -1,0 +1,28 @@
+{
+	"author": {
+		"name" : "Louis Ameline",
+		"email" : "evangun2001@yahoo.fr",
+		"url" : "https://github.com/louisameline"
+	},
+	"bugs": {
+		"url": "https://github.com/louisameline/tooltipster-htmlTitle/issues"
+	},
+	"description": "A Tooltipster plugin that lets you easily point out an HTML element to serve as tooltip content.",
+	"homepage": "https://github.com/louisameline/tooltipster-htmlTitle/",
+	"keywords": [
+		"ecosystem:tooltipster",
+		"tooltipster-plugin",
+		"tooltipster"
+	],
+	"license": "MIT",
+	"main": "tooltipster-htmlTitle.min.js",
+	"name": "tooltipster-htmltitle",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/louisameline/tooltipster-htmlTitle.git"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"version": "1.0.0"
+}

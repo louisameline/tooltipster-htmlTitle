@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="http://iamceege.github.io/tooltipster/dist/css/tooltipster.bundle.min.css" />
+		
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.10.0.min.js"></script>
+		<script type="text/javascript" src="http://iamceege.github.io/tooltipster/dist/js/tooltipster.bundle.js"></script>
+		<script type="text/javascript" src="../tooltipster-htmlTitle.js"></script>
+		
+		<style>
+			#templates {
+				display: none;
+			}
+		</style>
+		
+		<script type="text/javascript">
+			
+			$(document).ready(function() {
+				
+				$('.tooltip').tooltipster({
+					contentCloning: true
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<span class="tooltip" data-htmltitle="#tooltip_fruit">Cherries</span> / 
+		<span class="tooltip" data-htmltitle="#tooltip_fruit">Strawberries</span> / 
+		<span class="tooltip" data-htmltitle="#tooltip_vegetable">Carrots</span>
+		
+		<div id="templates">
+			<span id="tooltip_fruit"><b>These are fruit!</b></span>
+			<span id="tooltip_vegetable"><b>These are vegetables!</b></span>
+		</div>
+	</body>
+</html>

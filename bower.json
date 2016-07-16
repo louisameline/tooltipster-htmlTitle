@@ -1,0 +1,7 @@
+{
+	"name": "tooltipster-htmltitle",
+	"main": ["tooltipster-htmlTitle.js"],
+	"dependencies": {
+		"tooltipster": ">=4.0.0"
+	}
+}
