@@ -29,7 +29,7 @@ You can now set a `data-htmltitle` attribute on your origins to point out which 
 ```html
 <span class="tooltip" data-htmltitle="#tooltip_content">This text has a tooltip when you hover over it</span>
 
-<span id="tooltip_content"><img src="image.jpg" /> <b>This is the content of my tooltip!</b></span>
+<span id="tooltip_content"><b>This is the content of my tooltip!</b></span>
 ```
 
 > If the selector you provide in the attribute matches several elements, only the first one will be used.  
@@ -49,8 +49,8 @@ HTML:
 <span class="tooltip" data-htmltitle="#tooltip_vegetable">Carrots</span>
 
 <div id="templates">
-    <span id="tooltip_fruit"><img src="fruit.jpg" /> <b>These are fruit!</b></span>
-    <span id="tooltip_vegetable"><img src="vegetable.jpg" /> <b>These are vegetables!</b></span>
+    <span id="tooltip_fruit"><b>These are fruit!</b></span>
+    <span id="tooltip_vegetable"><b>These are vegetables!</b></span>
 </div>
 ```
 
