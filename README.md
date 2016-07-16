@@ -19,6 +19,8 @@ Include the plugin file in your page AFTER the Tooltipster bundle file.
 </html>
 ```
 
+> This plugin is also available on (Npm)[https://www.npmjs.com/package/tooltipster-htmltitle] and Bower as `tooltipster-htmltitle`
+
 Usage
 -----
 
