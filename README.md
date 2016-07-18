@@ -1,5 +1,7 @@
 # tooltipster-htmlTitle
 
+DEPRECATED AS OF TOOLTIPSTER v4.1.0
+
 A [Tooltipster](http://iamceege.github.io/tooltipster/) plugin that lets you easily point out an HTML element to serve as tooltip content. MIT license.
 
 This plugin doesn't add much to Tooltipster, it's rather meant for beginners who are not comfortable with manipulating their DOM with jQuery and who need the most simple instructions.
